@@ -120,7 +120,7 @@ void Add()
 {
 	system("cls");
 	printf("Add A record\n\n");
-	printf("Enter the name: ");
+	printf("Enter the name (do not enter spaces): ");
 	scanf("%s", s.Name);
 	printf("Enter the Salary: ");
 	scanf("%ld", &s.Salary);
